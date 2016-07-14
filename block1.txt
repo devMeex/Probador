@@ -1,7 +1,13 @@
 Tu identidad
-Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías:
+Lo primero que deberÃ­as hacer cuando instalas Git es establecer tu nombre de usuario y direcciÃ³n de correo electrÃ³nico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta informaciÃ³n, y es introducida de manera inmutable en los commits que envÃ­as:
 
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+<<<<<<< HEAD
 De nuevo, sólo necesitas hacer esto una vez si especificas la opción --global, ya que Git siempre usará esta información para todo lo que hagas en ese sistema. Si quieres sobrescribir esta información con otro nombre o dirección de correo para proyectos específicos, puedes ejecutar el comando sin la opción --global cuando estés en ese proyecto.
 de los controles de Versiones de mi Sw que me ayudan a la mantenibildiad del SW.
+=======
+De nuevo, sÃ³lo necesitas hacer esto una vez si especificas la opciÃ³n --global, ya que Git siempre usarÃ¡ esta informaciÃ³n para todo lo que hagas en ese sistema. Si quieres sobrescribir esta informaciÃ³n con otro nombre o direcciÃ³n de correo para proyectos especÃ­ficos, puedes ejecutar el comando sin la opciÃ³n --global cuando estÃ©s en ese proyecto.
+
+Siempre es importante poder aprender sobre contenidos acerca de la optimizacion del codigo del SW utilizando...
+>>>>>>> 889e5c5bc2c94014e87682f39a0ffc6e5d5c41c5
